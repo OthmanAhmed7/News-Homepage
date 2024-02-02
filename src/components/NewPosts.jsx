@@ -1,4 +1,4 @@
-import newPosts from "../constants/data";
+import { newPosts } from "../constants/data";
 
 const NewPosts = () => {
   return (
