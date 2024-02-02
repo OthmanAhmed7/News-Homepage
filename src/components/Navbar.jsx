@@ -1,29 +1,7 @@
-import navLinks from "../constants/data";
+import { navLinks } from "../constants/data";
 import { useState } from "react";
 
 const Navbar = () => {
-  const navLinks = [
-    {
-      link: "#",
-      title: "Home",
-    },
-    {
-      link: "#",
-      title: "New",
-    },
-    {
-      link: "#",
-      title: "Popular",
-    },
-    {
-      link: "#",
-      title: "Trending",
-    },
-    {
-      link: "#",
-      title: "Categories",
-    },
-  ];
   const [toggleNav, setToggleNav] = useState(false);
 
   function toggle() {

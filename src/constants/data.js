@@ -1,4 +1,4 @@
-const posts = [
+export const posts = [
   {
     imgURL: "/assets/images/image-retro-pcs.jpg",
     num: "01",
@@ -19,7 +19,7 @@ const posts = [
   },
 ];
 
-const navLinks = [
+export const navLinks = [
   {
     link: "#",
     title: "Home",
@@ -42,7 +42,7 @@ const navLinks = [
   },
 ];
 
-const newPosts = [
+export const newPosts = [
   {
     header: "Hydrogen VS Electric Cars",
     paragraph: "Will hydrogen-funded cars catch up to EVs?",
@@ -59,4 +59,4 @@ const newPosts = [
   },
 ];
 
-export default { posts, navLinks, newPosts };
+// export default { posts, navLinks, newPosts };

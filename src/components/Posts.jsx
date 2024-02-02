@@ -1,25 +1,6 @@
-const Posts = () => {
-  const posts = [
-    {
-      imgURL: "/assets/images/image-retro-pcs.jpg",
-      num: "01",
-      header: "Reviving Retro PCs",
-      paragraph: "What happens when old pcs are given modern upgrades?",
-    },
-    {
-      imgURL: "/assets/images/image-top-laptops.jpg",
-      num: "02",
-      header: "Top 10 Laptops of 2022",
-      paragraph: "Our best picks for various needs and budgets",
-    },
-    {
-      imgURL: "/assets/images/image-gaming-growth.jpg",
-      num: "03",
-      header: "The Growth of Gaming",
-      paragraph: "How the pandemic has sparked fresh opportunities",
-    },
-  ];
+import { posts } from "../constants/data";
 
+const Posts = () => {
   return (
     <div className="grid grid-cols-1 gap-6 padding lg:grid-cols-3">
       {posts.map((i) => (
